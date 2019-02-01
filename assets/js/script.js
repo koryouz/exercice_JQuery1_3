@@ -1,3 +1,8 @@
 $(document).ready(function(){
-  $('#text').css({'font-family': 'Arial, sans-serif', 'font-size': '200%'});
-)}
+  $('#show').click(function(){
+      $('#text').show();
+  });
+  $('#hide').click(function(){
+      $('#text').hide();
+  });
+});
